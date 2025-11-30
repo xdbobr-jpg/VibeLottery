@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: vibe-casino-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
