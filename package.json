@@ -1,0 +1,17 @@
+{
+  "name": "telegram-casino-bot",
+  "version": "1.0.0",
+  "description": "Telegram Casino Bot with roulette and lottery",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "better-sqlite3": "^9.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
